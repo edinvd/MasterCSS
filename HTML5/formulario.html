@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario en HTML5</title>
+</head>
+<body>
+    <h2>Construyendo un formulario</h2>
+    <p><a href="./index.html">Home</a></p>
+    <hr>
+    <form action="">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre"/>
+        </p>
+        <p>
+            <label for="descripcion">Descripción</label>
+            <textarea name="descripcion" id="comment" cols="30" rows="5"></textarea>
+        </p>
+        <h3>Pasatiempos favoritos</h3>
+        <!-- checkbox | sirve para elegir varias alternativas -->
+        <input type="checkbox" name="pasatiempos" id="">Escuchar musica <br>
+        <input type="checkbox" name="pasatiempos" id="">Cantar<br>
+        <input type="checkbox" name="pasatiempos" id="">Bailar <br>
+        <input type="checkbox" name="pasatiempos" id="">Leer<br>
+        
+        <p>
+            <h3>Genero</h3>
+            <!-- radio | sirve para elegir solo una alternativa -->
+            <input type="radio" name="genero" id=""> Hombre <br>
+            <input type="radio" name="genero" id=""> Mujer <br>
+            <input type="radio" name="genero" id=""> Prefiero no decirlo <br>
+        </p>
+
+        <p>
+            <h3>Pais de origen</h3>
+            <select name="pais" id="form">
+                <option value="peru">Peru</option>
+                <option value="mexico">Mexico</option>
+                <option value="chile">Chile</option>
+            </select>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar formulario">
+        </p>
+        
+        
+    </form>
+</body>
+</html>
