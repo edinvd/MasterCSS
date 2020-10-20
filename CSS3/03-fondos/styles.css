@@ -1,0 +1,38 @@
+body {
+    background-color: #ccc;
+    /* background-image: url(./01-imagenes/paisaje.jpg); */
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#caja {
+    background-color: orangered;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline white;
+    text-decoration: line-through blue;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+h2 {
+    border: 2px solid black;
+    padding: 15px;
+    background-image: url(./01-imagenes/patron1.jpg);
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: lowercase, uppercase;
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 15px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}

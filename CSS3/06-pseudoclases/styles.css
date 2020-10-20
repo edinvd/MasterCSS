@@ -1,0 +1,99 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+
+}
+
+h1 {
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: #525252;
+    text-decoration: underline rgba(149, 15, 211, 0.719);
+}
+
+h1:p
+
+ul li {
+    letter-spacing: .5px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+/* :first-child | Selecciona el primer elemento de la lista */
+ul li:first-child {
+    color: lime;
+}
+
+/* :nth-child(0) | Selecciona el elemento indicado de la lista */
+
+ul li:nth-child(2) {
+    color: yellow;
+}
+
+ul li:nth-child(3) {
+    color: red;
+}
+
+ul li:nth-child(4) {
+    color: skyblue;
+}
+
+/* :last-chil | Selecciona el ultimo elemento indicado de la lista */
+
+ul li:last-child {
+    color: purple;
+}
+
+#mi-enlace {
+    display: block;
+    text-decoration: none;
+    color: aqua;
+}
+
+#mi-enlace:link{
+    color: orange;
+}
+
+#mi-enlace:visited{
+    color: green;
+}
+
+#mi-enlace.website:hover {
+    color: orangered;
+    font-weight: 600;
+}
+
+#mi-enlace.codepen:active {
+    color: blue;
+    font-weight: 600;
+    border: 1px solid gray;
+}
+
+#mi-enlace.instagram:hover {
+    color: orangered;
+    font-weight: 600;
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-color: #c704b7;
+    width: 200px;
+}
+
+input[type="text"]:focus {
+    border: 4px orangered dashed;
+    outline: none;
+}
+
+input, #apellido {
+    width: 150px;
+    border-color: blue;
+    text-overflow: ellipsis;
+    
+}
+
+

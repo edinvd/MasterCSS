@@ -1,0 +1,53 @@
+@font-face {
+    font-family: QuicksandFuenteCustom;
+    src: url(./01-fonts/Quicksand-Light.ttf);
+}
+
+h1 {
+    font-family: Helvetica;
+    font-weight: 200;
+    color: mediumpurple;
+}
+
+h2 {
+    font-family: QuicksandFuenteCustom,Arial, Helvetica, sans-serif;
+    color: #7a168a;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+
+h3 {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    letter-spacing: 1px;
+    color: rgb(255, 136, 0);
+    font-weight: lighter;
+}
+
+h5 {
+    color: rgb(85, 75, 75);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+p {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    color: #0071e3;
+}
+
+h3#color {
+    /* COLORES */
+
+/* Colores del Sistema */
+    color: green;
+
+/* Colores Exadecimales */
+    color: #cccc;
+    color: #37eb13;
+/* Colores RGB */
+    color: rgb(184, 6, 255);
+
+/* Colores RGBA */
+    color: rgba(223, 20, 138, 0.849);
+}
+

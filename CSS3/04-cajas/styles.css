@@ -1,0 +1,43 @@
+/* RESETEAR TODOS LOS ESTILOS DE LOS ELEMENTOS */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 40px;
+}
+
+#cajas {
+    max-width: 900px;
+    border: 1px solid black;
+}
+
+.caja {
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 10px solid gray;
+    margin: 15px;
+    /* margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 24px;
+    margin-right: 10px; */
+    border-radius: 20px;
+    padding-bottom: 34px;
+    float: left;
+    
+}
+
+.caja p {
+    text-align: center;
+    line-height: 235px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Esto sirve para quebrar cajas en cuanto a  */
+.clearfix {
+    float: none;
+    clear: both;
+}
