@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+#container {
+    width: 70%;
+    background: red;
+    margin: 0px auto;
+    font-family: Roboto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background: lightblue;
+    color: #333;
+    line-height: 150px;
+    text-align: center;
+}
+
+aside {
+    width: 25%;
+    /* Esto es para que el aside flote y se ubique en el lado izquierdo */
+    float: left;
+    /* Esto para que tenga una altura minima el aside */
+    min-height: 700px;
+    
+    text-align: center;
+    line-height: 700px;
+    background-color: yellow;
+}
+
+#articles {
+    width: 75%;
+    background-color: lemonchiffon;
+    min-height: 700px;
+    float: left;
+}
+#articles article {
+    width: 25%;
+    height: 150px;
+    background-color: pink;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+    border: 2px solid white;
+    float: left;
+    margin: 15px;
+}
+
+footer {
+    background-color: limegreen;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+}
+
+/* RESPONSIVE */
+/* mediaquerys */
+/* Desde la anchura 0px hasta la anchura 888px de pantalla */
+@media (max-width: 888px){
+    /* Se ejecutaran estos estilos */
+    #articles article {
+        width: 40%;
+        background-color: green;
+    }
+}
+
+/* Desde la anchura 0px hasta la anchura 664px de pantalla */
+@media (max-width: 664px) /* ### esta funcion dara los estilos cuando cumplan la altura de pantalla indicada #### and ( max-height: 600px) */{
+    /* Se ejecutaran estos estilos */
+    #container {
+        overflow: hidden;
+    }
+
+    aside {
+        float: none;
+        min-height: auto;
+        line-height: 20px;
+        width: 94%;
+        padding: 19px;
+    }
+
+    #articles {
+        width: 100%;
+    }
+
+    #articles article {
+        width: 90%;
+        background-color: blue;
+    }
+}
+
+/* Desde la anchura 0px hasta la anchura 554px de pantalla */
+@media (max-width: 554px){
+    /* Se ejecutaran estos estilos */
+    body {
+        background-color: lightsalmon;
+    }
+}
+
